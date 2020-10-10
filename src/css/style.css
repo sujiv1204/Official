@@ -14,6 +14,20 @@ body {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
 
+.navbar{
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+/* .nav-link {
+  color: rgb(255, 255, 255) !important;
+  } */
+
+@media (max-width: 360px){
+  .navbar img{
+    width: 40px;
+  }
+}
 @media (min-width: 768px) {
   .navbar li {
     margin-left: 0.5em;
