@@ -13,37 +13,43 @@ body {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
-
-/* .navbar{
-  background: #9796f0;  /* fallback for old browsers 
-  background: -webkit-linear-gradient(to left, #a52245, #2c29c2);  /* Chrome 10-25, Safari 5.1-6 
-  background: linear-gradient(to left, #a52245, #2c29c2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
-
-} */
-
-/* .navbar{
-  background: rgb(63,94,251);
-  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-
-} */
+.navbar{
+  background-image: linear-gradient(-60deg, #e2d1fc 10%, #ffeee2 100%);
+ }
 .nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
   color: #000000 !important;
   }
 .nav-link:hover {
-  font-weight: 900;
-  color: #5a285a !important; 
+  font-weight: 500;
+  color: #9b4105 !important; 
+  border-bottom: 0.05px solid #202020;
 }
 
 .navbar .active a{
+  border-bottom: 1px solid #130600;
   font-weight: bold;
   color: #200b04 !important;
-  
-  
 }
- .navbar{
-  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
-  background-image: linear-gradient(-60deg, #ad7aff 10%, #fdeed1 100%);
- } 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+@media (max-width: 992px){
+  .nav-link:hover{
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 992px){
+  .navbar .active a{
+    border-bottom: none;
+  }
+}
 
 @media (max-width: 360px){
   .navbar img{
