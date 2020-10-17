@@ -485,7 +485,25 @@ footer ul {
   position: relative;
   text-align: center;
 }
-
+.img1{
+  height: 300px;
+  width: 300px;
+}
+.img2{
+  height: 200px;
+  width: 200px;
+}
+.zoom-within-container .img{
+  height: 80%; 
+  width: 80%;
+  overflow: hidden; 
+}
+.zoom-within-container img {
+  transition: transform .5s ease;
+}
+.zoom-within-container:hover img {
+  transform: scale(1.25);
+}
 .hovereffect .overlay {
   position: absolute;
   overflow: hidden;
@@ -539,6 +557,11 @@ footer ul {
 }
 
 .hovereffect p {
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
   color: #fff;
   padding: 1em 0;
   opacity: 0;
