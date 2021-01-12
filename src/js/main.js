@@ -46,3 +46,9 @@ function accordActive(n) {
   }
 }
 
+// LightBox Options
+lightbox.option({
+  'disableScrolling': true,
+  'wrapAround': true,
+  'showImageNumberLabel': false
+})
