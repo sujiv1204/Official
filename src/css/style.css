@@ -313,14 +313,19 @@ body {
   letter-spacing: 2px;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
 }
-.accordion h3:after {
+/* .accordion h3:after {
   content: "+";
   position: relative;
   float: right;
-  font-size: 40px;
+  font-size: 30px;
   top: 50%;
   transform: translate(-50%);
+} */
+.more-less {
+  float: right;
+  color: #212121;
 }
+
 .accContent {
   border-radius: 5px;
   margin-top: 0px;
@@ -501,7 +506,7 @@ footer ul {
 }
 .img1{
   height: 300px;
-  width: 350px;
+  width: 300px;
 }
 .img2{
   height: 200px;
