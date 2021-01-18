@@ -419,6 +419,8 @@ footer ul {
 .masthead {
   height: 100vh;
   min-height: 500px;
+  margin-top: 300px 300px;
+
 }
 
 .masthead::before {
@@ -432,6 +434,9 @@ footer ul {
   width: 100%;
   height: 100%;
   opacity: 0.5;
+  margin-top: 300px;
+
+
 }
 
 .events-tab {
