@@ -669,3 +669,15 @@ footer ul {
      width: 91%;
   }
 }
+
+@media screen and (max-width: 500px){
+  .container p {
+    display: none;
+  }
+
+  .container h1{
+    font-size: 25px;
+  }
+	
+}
+
