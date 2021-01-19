@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 // Initializing WOW
 wow = new WOW({
   boxClass: "wow",
@@ -52,3 +55,4 @@ lightbox.option({
   'wrapAround': true,
   'showImageNumberLabel': false
 })
+
