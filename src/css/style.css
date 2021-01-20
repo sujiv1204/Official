@@ -709,6 +709,9 @@ footer ul {
 /*********************************************************************
                             Team Styles
 *********************************************************************/
+.team{
+  overflow: hidden;
+}
 .hovereffect {
   width: max-content;
   height: 100%;
@@ -810,6 +813,50 @@ footer ul {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: auto;
+  }
+  
+  .section-bg {
+  background-color: #fef8f5;
+  }
+  
+  .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 0;
+  line-height: 1px;
+  margin-bottom: 15px;
+  color: #c2b7b1;
+  }
+  
+  .section-title p {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4e4039;
+  }
+  
+  .section-title p::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #1451AC;
+  bottom: 0;
+  left: calc(50% - 30px);
+  }
 /* 
 ***************************************************************************
             Contact Us styles

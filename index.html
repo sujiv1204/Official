@@ -11,7 +11,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-    <script src="https://kit.fontawesome.com/00ea784117.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
@@ -98,7 +99,7 @@
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active"
-                    style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                    style="background-image: url('src/img/home1.jpeg')">
                     <div class="carousel-caption d-md-block">
                         <h2 class="display-4">First Slide</h2>
                         <p class="lead">This is a description for the first slide.</p>
@@ -106,7 +107,7 @@
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+                    style="background-image: url('src/img/home2.jpeg')">
                     <div class="carousel-caption d-md-block">
                         <h2 class="display-4">Second Slide</h2>
                         <p class="lead">This is a description for the second slide.</p>
@@ -114,7 +115,7 @@
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
                 <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+                    style="background-image: url('src/img/home3.jpeg')">
                     <div class="carousel-caption d-md-block">
                         <h2 class="display-4">Third Slide</h2>
                         <p class="lead">This is a description for the third slide.</p>
@@ -287,10 +288,12 @@
             <div class="row h-100 align-items-center py-5">
                 <div class="col-md-6 d-lg-block"><img
                         src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt=""
-                        class="img-fluid wow fadeInLeft"></div>
+                        class="img-fluid" data-aos="fade-right"></div>
                 <div class="col-md-6 pl-md-5 py-5">
-                    <h1 class="display-7 wow fadeInRight">Who we are</h1>
-                    <p class="lead text-muted wow fadeInRight" data-wow-delay="100ms">Here at the CS Club, we act as a gateway for students to enter the Computer Science Community and Industry. 
+                    <div class="section-title" data-aos="fade-up" style="padding-top:30px">
+                        <p style="font-size:30px">Who we are</p>
+                    </div>
+                    <p class="lead text-muted" data-aos="fade-left">Here at the CS Club, we act as a gateway for students to enter the Computer Science Community and Industry. 
                         We strive to educate, train, and guide students as they build towards a profession in CS Industry. We aren't just a club, we're an independent body where students learn together, help each other sharpen their skills and create their future in the industry.
                     </p>
                 </div>
@@ -300,7 +303,9 @@
 
     <!-- FAQ -->
     <div class="blogWidgetContainer">
-        <h1>FAQ Section</h1>
+        <div class="section-title" data-aos="fade-up" style="padding-top:30px">
+            <p style="font-size:30px">FAQ Section</p>
+        </div>
         <div class="accordion">
             <h3 onclick="accordActive(1)"><i class="more-less far fa-plus-square"></i> What does the CS Club do?</h3>
             <div class="accContent">
@@ -413,6 +418,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://kit.fontawesome.com/00ea784117.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Custom JS -->
     <script src="./src/js/main.js"></script>
